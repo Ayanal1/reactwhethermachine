@@ -1,5 +1,55 @@
+
+
+
 .App {
+  margin: 0px auto;
   text-align: center;
+  /* border: 2px solid #282c34; */
+  /* width: 1024px;
+  height: 500px; */
+  /* background-image: url(https://acegif.com/wp-content/gifs/sun-31.gif); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.temp{
+  background-color: #0d1f3e;
+  font-size: 100px;
+  margin-top: 1px !important;
+  /* position: relative;
+  top:20% ; */
+  color: #ffffff;
+}
+.myDropDown
+{
+   height: 250px  !important;
+   overflow: auto;
+}
+.myDropDown1
+{
+   height: 250px  !important;
+   overflow: auto;
+}
+/* .reset{
+  position: relative  !important;
+  left: 100%  !important;
+  bottom: 100%  !important;
+} */
+.btn-primary {
+  width: 100px;
+  height: 40px ;
+  color: #fff !important;
+  background-color: #0d1f3e !important;
+  border-color: #ffc107 !important;
+}
+.aligningwhether{
+  margin-top: 10px;
+  margin-left: 10px;
+  /* position: sticky;
+  right: 250%; */
 }
 
 .App-logo {
